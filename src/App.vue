@@ -13,10 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
+  background: url("assets/background.jpg");
+  height: 100vh;
+  overflow: hidden;
 }
 
 #nav a {
@@ -27,4 +26,5 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
 </style>
