@@ -1,8 +1,10 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <!-- <div id="dev-nav">
+    <router-link to="/registration">Reg</router-link> |
+    <router-link to="/">Chats</router-link> |
+    <router-link to="/authorization">Auth</router-link> |
+    <router-link to="/chat/2">Chat</router-link>
+  </div> -->
   <router-view />
 </template>
 
@@ -26,5 +28,4 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
-
 </style>
