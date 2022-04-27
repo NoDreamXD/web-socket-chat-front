@@ -1,8 +1,10 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <!-- <div id="dev-nav">
+    <router-link to="/registration">Reg</router-link> |
+    <router-link to="/">Chats</router-link> |
+    <router-link to="/authorization">Auth</router-link> |
+    <router-link to="/chat/2">Chat</router-link>
+  </div> -->
   <router-view />
 </template>
 
@@ -13,10 +15,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
+  background: url("assets/background.jpg");
+  height: 100vh;
+  overflow: hidden;
 }
 
 #nav a {
