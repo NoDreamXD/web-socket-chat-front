@@ -65,22 +65,4 @@ export default class Authorization extends Vue {}
   }
 }
 
-/* input.field{
-  background: #e5e5e5;
-  border: solid 1px #333333;
-  border-radius: 4px;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}  */
-/* input .enter{
-  background: #d0d0d0;
-  border: solid 1px #333333;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-} */
-/* input .registr{
-  background: #d0d0d0;
-  border: solid 1px #333333;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-} */
 </style>
